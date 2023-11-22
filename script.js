@@ -70,23 +70,28 @@
 
 // const area = (kazkas) => {
 //   if (kazkas == "kvadratas") {
-//     const kvadA = parseInt(prompt("Koks kvadrato a krastines ilgis ?"));
-//     const kvadB = parseInt(prompt("Koks kvadrato b krastines ilgis ?"));
-//     const kvadPlot = kvadA * kvadB;
-//     // console.log(`Tavo kvadrato plotas yra ${kvadPlot}`);
-//     alert(`Tavo kvadrato plotas yra ${kvadPlot}`);
-//     return kvadPlot;
+//     return function () {
+//       const kvadA = parseInt(prompt("Koks kvadrato a krastines ilgis ?"));
+//       const kvadB = parseInt(prompt("Koks kvadrato b krastines ilgis ?"));
+//       const kvadPlot = kvadA * kvadB;
+//       // console.log(`Tavo kvadrato plotas yra ${kvadPlot}`);
+//       alert(`Tavo kvadrato plotas yra ${kvadPlot}`);
+//       return kvadPlot;
+//     };
 //   } else if (kazkas == "trikampis") {
-//     const triA = parseInt(prompt("Koks trikampio pagrindo ilgis ?"));
-//     const triB = parseInt(prompt("Koks trikampio aukstines ilgis ?"));
-//     const triPlot = (1 / 2) * triA * triB;
-//     alert(`Tavo trikampio plotas yra ${triPlot}`);
-//     return triPlot;
+//     return function () {
+//       const triA = parseInt(prompt("Koks trikampio pagrindo ilgis ?"));
+//       const triB = parseInt(prompt("Koks trikampio aukstines ilgis ?"));
+//       const triPlot = (1 / 2) * triA * triB;
+//       alert(`Tavo trikampio plotas yra ${triPlot}`);
+//       return triPlot;
+//     };
 //   } else {
 //     console.log("Blogai ivedete figura");
 //   }
 // };
-// area(kokiaFigura);
+// const plotoFunkcija = area(kokiaFigura);
+// const plotas = plotoFunkcija();
 
 // 6)
 // function isSeven(x) {
@@ -105,12 +110,12 @@
 // belekas(4, 6, 23);
 
 // 7)
-const isEqual = (par1, par2) => {
-  const right = par1 === par2 ? true : false;
-  console.log(right);
-  return right;
-};
-isEqual("labas", "ka tu");
+// const isEqual = (par1, par2) => {
+//   const right = par1 === par2 ? true : false;
+//   console.log(right);
+//   return right;
+// };
+// isEqual("labas", "ka tu");
 
 // 9)
 // const minSec = (minutes) => {
